@@ -1,0 +1,32 @@
+Given a 2d grid map of '1's (working space) and '0's (wall), count the number of offices. 
+An office is surrounded by walls and is formed by connecting adjacent offices horizontally or vertically. 
+You may assume all four edges of the grid are all surrounded by walls.
+
+The first number of input data is the number of rows
+The second number of input data is the number of columns
+And then the grid data following.
+
+Example 1:
+
+Input:
+
+4
+5
+11110
+11010
+11000
+00000
+
+Output: 1
+
+Example 2:
+
+Input:
+4
+5
+11000
+11000
+00100
+00011
+
+Output: 3
